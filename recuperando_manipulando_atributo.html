@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>JQuery</title>
+	<meta charset=utf-8>
+	<meta name=description content="">
+	<meta name=viewport content="width=device-width, initial-scale=1">
+	<!-- <script src="jquery-3.3.1.min.js"></script> -->
+	<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script>
+  	$(document).ready(function(){
+console.log($('div').attr('style', 'background: green; width: 200px; height: 200px'))
+  	})
+  </script>
+</head>
+<body>
+<img src="imagem/esfera_1.png" border="5" >
+<div style="background: red; width: 100px; height: 100px"></div>
+<input type="text"  value="eu sou um input" placeholder="">
+</body>
+<script>
+	console.log($('img').attr('src','imagem/esfera_2.png'))
+	console.log($('img').attr('border',9))
+	console.log($('input').attr('value', ' anderson é bom demais'))
+
+</script>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>JQuery</title>
+	<meta charset=utf-8>
+	<meta name=description content="">
+	<meta name=viewport content="width=device-width, initial-scale=1">
+	<!-- <script src="jquery-3.3.1.min.js"></script> -->
+	<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+<input  type="text" name="" value="" placeholder="input 1">
+<input type="text" name="" value="" placeholder="input 2">
+<input type="text" name="" value="" placeholder="input 3">
+
+<div class="lista1">
+<div class="exemplo2" >div 1</div>
+<div>div 2</div>
+<div>div 3</div>
+</div>
+
+<ul class="lista1">
+	<li >opcao 1</li>
+	<li class="exemplo2">opcao 2</li>
+	<li class="exemplo2">opcao 3</li>
+</ul>
+
+<ul class="lista2">
+	<li class="exemplo2">opcao 1</li>
+	<li class="exemplo2">opcao 2</li>
+	<li>opcao 3</li>
+</ul>
+</body>
+<script >
+//Combinação de seletores
+//selecionar elementos por classe de tag especifica
+//console.log($('div.exemplo1'))
+
+//secionar elementos por classe de classe especifica
+//console.log($('ul.lista1 .exemplo2 '))
+//:first - seleciona o primeiro da lista.
+//:last - seleciona o ultimo da lista
+//:even - seleciona os indices pares do array list
+//:odd - seleciona os indices impares do array list
+//Atuacao sobre o array de retorno dos elementos selecionados
+console.log($('.lista1 .exemplo2:first'))
+console.log($('.lista1 .exemplo2:last'))
+console.log($('.lista1 .exemplo2:even'))
+console.log($('.lista1 .exemplo2:odd'))
+</script>
+</html>
